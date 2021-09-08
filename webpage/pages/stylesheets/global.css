@@ -137,4 +137,143 @@ nav .fas {
     padding: 30px;
   }
 }
+/*servicios*/
+.servicios{
+  background: linear-gradient(90deg, rgba(131,58,180,0.7) 0%, rgba(253,29,29,0.7) 50%, rgba(252,176,69,0.7) 100%);
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.servicios h1{
+  color: #fff;
+  font-weight: 700;
+}
+.servicios p{
+  font-size: 18px;
+  color: #fff;
+  font-weight: 400;
+}
+.serv-col{
+  background: #f9f9f9;
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+  transition: 0.6s;
+}
+.serv-col h3{
+  text-align: center;
+}
+.serv-col p{
+  color: #282A3A;
+}
+.serv-col img{
+  width: 100%;
+  border-radius: 10px;
+}
+.serv-col:hover{
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.6);
+}
 
+/*testimoniales*/
+.testimoniales{
+  background: #282A3A;
+  width: 100%;
+  margin: auto;
+  padding-top: 100px;
+  text-align: center;
+}
+.testimoniales h1{
+  color: #fff;
+  font-weight: 700;
+}
+.testimoniales p{
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+}
+.test-col{
+  flex-basis: 44%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+  background: #fff;
+  padding: 25px;
+  cursor: pointer;
+  display: flex;
+}
+.test-col img{
+  height: 80px;
+  margin-left: 5px;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+.test-col p{
+  padding: 0;
+  color: #282A3A;
+  font-weight: 400;
+}
+.test-col h3{
+  color: #282A3A;
+  font-weight: 700;
+  text-align: left;
+}
+.test-col .fas{
+  color: #ffd001;
+}
+.test-col:hover{
+  box-shadow: 0 0 20px 0px rgba(255, 255, 255, 0.6);
+}
+@media(max-width: 700px){
+  .test-col img{
+    margin-left: 0px;
+    margin-right: 15px;
+  }
+}
+/*cta*/
+.cta{
+  margin: 100px auto;
+  width: 80%;
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/webpage/pages/images/ph.jpg');
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+}
+.cta h1{
+  color: #fff;
+  margin-bottom: 40px;
+  padding: 0;
+}
+
+/*footer*/
+.footer{
+  background: #282A3A;
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+.footer h4{
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+.footer p{
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+.footer .fab{
+  margin-bottom: 25px;
+  margin-top: 20px;
+  margin-left: 15px;
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+}
