@@ -1,0 +1,103 @@
+<!--Pagina web creada por Roberto Sanchez para el proyecto final de practica supervizada 2021
+hecho con mucho esfuerzo y amor ☻♥-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro intercultural de computacion y turismo CICT</title>
+    <!--Carga de todas las dependencias del la web-->
+    <link rel="stylesheet" href="stylesheets/global.css">
+    <link rel="stylesheet" href="stylesheets/aboutus.css">
+    <link rel="stylesheet" href="stylesheets/carreras.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<head>
+    <body>
+        <!----------#seccion del cabezal y la barra de navegaciom---------->
+        <section class="aboutush">
+            <nav>
+                <a href='index.html'><img src='images/logo.png'></a>
+                <!----------barra de navegacion---------->
+                    <div class="navegacion" id="navegacion">
+                        <i class="fas fa-angle-double-right" onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="">INICIO</a>
+                                <i class="fas fa-home"></i></li>
+                            <li><a href="">CARRERAS</a>
+                                <i class="fas fa-graduation-cap"></i></li>
+                            <li><a href="">SOBRE NOSOTROS</a>
+                                <i class="fas fa-users"></i></li>
+                            <li><a href="">CONTACTO<i class="fas fa-phone"></i></a>
+                                </li>
+                            <li><a href="https://github.com/Robeshiri/proyectofinalcict">REPOSITORIO</a>
+                                <i class="fab fa-github-alt"></i></li>
+                        </ul>
+                    </div>
+                    <div class="text.box"></div>
+                    <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <!----------#hero textbox---------->
+            <div class="text-box">
+                <h1>Sobre Nosotros</h1>
+            </div>
+        </section>
+        <!----------#Contenido---------->
+        <section class="grados">
+            <h1>Sobre Nosotros</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum varius orci, eget ornare leo commodo sit amet.
+                Curabitur mollis leo quis tortor rhoncus vestibulum. Aenean dapibus semper convallis. Donec sollicitudin, augue ac egestas
+                vehicula, dui odio viverra quam, eu elementum sapien augue non diam. Pellentesque facilisis pharetra quam, eget facilisis metus
+                ultricies et. Nunc facilisis leo convallis diam efficitur commodo. Vestibulum at tortor at lacus lacinia malesuada sed rutrum odio</p>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Misión</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum varius orci, eget ornare leo commodo sit amet.
+                        Curabitur mollis leo quis tortor rhoncus vestibulum. Aenean dapibus semper convallis. Donec sollicitudin, augue ac egestas
+                        vehicula, dui odio viverra quam, eu elementum sapien augue non diam. Pellentesque facilisis pharetra quam, eget facilisis metus
+                        ultricies et. Nunc facilisis leo convallis diam efficitur commodo. Vestibulum at tortor at lacus lacinia malesuada sed rutrum odio</p>
+
+                </div>
+                <div class="course-col">
+                    <h3>Visión</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum varius orci, eget ornare leo commodo sit amet.
+                        Curabitur mollis leo quis tortor rhoncus vestibulum. Aenean dapibus semper convallis. Donec sollicitudin, augue ac egestas
+                        vehicula, dui odio viverra quam, eu elementum sapien augue non diam. Pellentesque facilisis pharetra quam, eget facilisis metus
+                        ultricies et. Nunc facilisis leo convallis diam efficitur commodo. Vestibulum at tortor at lacus lacinia malesuada sed rutrum odio</p>
+                </div>
+            </div>
+        </section>
+        <!----------#footer---------->
+        <section class="footer">
+            <h4>Sobre Nosotros</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum varius orci, eget ornare leo commodo sit amet.
+                Curabitur mollis leo quis tortor rhoncus vestibulum.  Aenean dapibus semper convallis.<br> Donec sollicitudin, augue ac egestas
+                vehicula, dui odio viverra quam, eu elementum sapien augue non diam.</p>
+            <div class="icons">
+                <a href="https://github.com/Robeshiri/proyectofinalcict"><i class="fab fa-github-alt"></i></a>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-whatsapp"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
+            <p>CREADO POR ROBERTO SANCHEZ ☻ </p>
+        </section>
+        <script>
+            /*
+            codigo de las funciones que serviran para el menu desplegable en dispositivos moviles
+            programado por Roberto ☻
+            */
+            var navegacion = document.getElementById("navegacion");
+            function showMenu() {
+             navegacion.style.right = "0px";
+            }
+            function hideMenu() {
+            navegacion.style.right = "-200px";
+            }
+        </script>
+    </body>
+</head>
+</html>
