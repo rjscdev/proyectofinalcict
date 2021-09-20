@@ -277,3 +277,26 @@ nav .fas {
   font-size: 24px;
   color: #fff;
 }
+/*concato*/
+.location{
+  width: 80%;
+  margin: auto;
+  padding: 80px 0;
+}
+.location iframe{
+  width: 100%;
+}
+
+.contcus{
+  width: 80%;
+  margin: auto;
+}
+.cont-col{
+  flex-basis: 48%;
+  margin-bottom: 30px;
+}
+.cont-col div{
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}

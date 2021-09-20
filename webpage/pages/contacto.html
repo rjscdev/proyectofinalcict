@@ -1,0 +1,117 @@
+<!--Pagina web creada por Roberto Sanchez para el proyecto final de practica supervizada 2021
+hecho con mucho esfuerzo y amor ☻♥-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro intercultural de computacion y turismo CICT</title>
+    <!--Carga de todas las dependencias del la web-->
+    <link rel="stylesheet" href="stylesheets/global.css">
+    <link rel="stylesheet" href="stylesheets/aboutus.css">
+    <link rel="stylesheet" href="stylesheets/carreras.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<head>
+    <body>
+        <!----------#seccion del cabezal y la barra de navegaciom---------->
+        <section class="aboutush">
+            <!----------barra de navegacion---------->
+            <nav>
+                <a href='index.html'><img src='images/logocol.png'></a>
+                    <div class="navegacion" id="navegacion">
+                        <i class="fas fa-angle-double-right" onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="/webpage/pages/index.html">INICIO</a>
+                                <i class="fas fa-home"></i></li>
+                            <li><a href="/webpage/pages/Carreras.html">CARRERAS</a>
+                                <i class="fas fa-graduation-cap"></i></li>
+                            <li><a href="/webpage/pages/sobre_nosotros.html">SOBRE NOSOTROS</a>
+                                <i class="fas fa-users"></i></li>
+                            <li><a href="/webpage/pages/contacto.html">CONTACTO<i class="fas fa-phone"></i></a>
+                                </li>
+                            <li><a href="https://github.com/Robeshiri/proyectofinalcict">REPOSITORIO</a>
+                                <i class="fab fa-github-alt"></i></li>
+                        </ul>
+                    </div>
+                    <div class="text.box"></div>
+                    <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <!----------#hero textbox---------->
+            <div class="text-box">
+                <h1>Contactanos</h1>
+            </div>
+        </section>
+            <!----------contactanos---------->
+            <section class="location">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d292.496480927737!2d-90.51903392277885!3d14.63888252533069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sgt!4v1632148956980!5m2!1ses!2sgt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            </section>
+            <section class="contcus">
+                <div class="row">
+                    <div class="cont-col">
+                        <div>
+                            <i class="fas fa-home"></i>
+                            <span>
+                                <h5>Centro histórico, 1 Av, Cdad. de Guatemala</h5>
+                                <p>nuestro establecimiento</p>
+                            </span>
+                        </div>
+                        <div>
+                            <i class="fas fa-phone"></i>
+                            <span>
+                                <h5>+502 4942 9158</h5>
+                                <p>Número de Telefono</p>
+                            </span>
+                        </div>
+                        <div>
+                            <i class="fas fa-envelope"></i>
+                            <span>
+                                <h5>coleinterculturalcict@gmail.com</h5>
+                                <p>Dirección de Correo</p>
+                            </span>
+                        </div>
+                        <div>
+                            <a href="https://github.com/Robeshiri/proyectofinalcict"><i class="fab fa-github-alt"></i></a>
+                            <span>
+                                <a href="https://github.com/Robeshiri/proyectofinalcict"><h5>Repositorio de Github</h5></a>
+                                <p>Repositorio con este proyecto</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+                   <!----------#footer---------->
+        <section class="footer">
+            <h4>Sobre Nosotros</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum varius orci, eget ornare leo commodo sit amet.
+                Curabitur mollis leo quis tortor rhoncus vestibulum.  Aenean dapibus semper convallis.<br> Donec sollicitudin, augue ac egestas
+                vehicula, dui odio viverra quam, eu elementum sapien augue non diam.</p>
+            <div class="icons">
+                <a href="https://github.com/Robeshiri/proyectofinalcict"><i class="fab fa-github-alt"></i></a>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-whatsapp"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
+            <p>CREADO POR ROBERTO SANCHEZ ☻ </p>
+        </section>
+        <script>
+            /*
+            codigo de las funciones que serviran para el menu desplegable en dispositivos moviles
+            programado por Roberto ☻
+            */
+            var navegacion = document.getElementById("navegacion");
+            function showMenu() {
+             navegacion.style.right = "0px";
+            }
+            function hideMenu() {
+            navegacion.style.right = "-200px";
+            }
+        </script>
+    </body>
+</head>
+</html>
