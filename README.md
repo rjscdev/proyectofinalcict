@@ -30,15 +30,14 @@ la pagina principal es el archivo index.html
 _para modificar la pagina solo debes buscar la parte deseada, cada seccion esta separada con comentarios_
 
 ## Scans 📷
-
-![alt text](https://ibb.co/64HChbY)
-![alt text](https://ibb.co/vDgwPHc)
-![alt text](https://ibb.co/9yTkV2v)
-![alt text](https://ibb.co/Gv9VsJD)
-![alt text](https://ibb.co/XF1jNBX)
-![alt text](https://ibb.co/RS933CQ)
-![alt text](https://ibb.co/4d6cdZH)
-![alt text](https://ibb.co/jgjBRD9)
+![alt text](https://i.ibb.co/qRNQG9B/imagen-2021-10-04-110958.png)
+![alt text](https://i.ibb.co/g6HjT3r/imagen-2021-10-04-111129.png)
+![alt text](https://i.ibb.co/NWjdmp3/imagen-2021-10-04-111150.png)
+![alt text](https://i.ibb.co/PZM5TYy/imagen-2021-10-04-111210.png)
+![alt text](https://i.ibb.co/WBZGq9n/imagen-2021-10-04-111240.png)
+![alt text](https://i.ibb.co/fS2kkCr/imagen-2021-10-04-111303.png)
+![alt text](https://i.ibb.co/HdW0dDj/imagen-2021-10-04-111327.png)
+![alt text](https://i.ibb.co/3BPGzc5/imagen-2021-10-04-111349.png)
 
 ## Autores ✒️
 
