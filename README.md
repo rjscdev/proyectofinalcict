@@ -29,6 +29,17 @@ la pagina principal es el archivo index.html
 
 _para modificar la pagina solo debes buscar la parte deseada, cada seccion esta separada con comentarios_
 
+## Scans 📷
+
+![alt text](https://ibb.co/64HChbY)
+![alt text](https://ibb.co/vDgwPHc)
+![alt text](https://ibb.co/9yTkV2v)
+![alt text](https://ibb.co/Gv9VsJD)
+![alt text](https://ibb.co/XF1jNBX)
+![alt text](https://ibb.co/RS933CQ)
+![alt text](https://ibb.co/4d6cdZH)
+![alt text](https://ibb.co/jgjBRD9)
+
 ## Autores ✒️
 
 _Roberto Javier Sanchez Castellanos (soy el unico autor de esta pagina)_
