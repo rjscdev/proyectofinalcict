@@ -3,7 +3,7 @@
 este proyecto forma parte del proyecto final de practicas para graduandos del colegio CICT 2021
 
 ## Comenzando 🚀
-este repositorio contiene todo el codigo fuente de la pagina web hecha a partir de la propuesta del proyecto final
+este repositorio contiene todo el codigo fuente de la pagina web hecha a partir de la propuesta del proyecto final, esta es solo una pagina web estatica, por lo que no trae funciones complejas.
 
 Mira **Deployment** para conocer como desplegar el proyecto.
 

@@ -301,14 +301,13 @@ nav .fas {
   margin-bottom: 40px;
 }
 .prin{
-  width: 400px;
-  border-bottom: 20px solid #fa6c3a;
+  width: 420px;
+  border-bottom: 30px solid #fa6c3a;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 .prin h2{
   color: #fff;
-  width: 86.5%;
   background: #fa6c3a;
   padding: 10px 30px;
   font-size: 20px;
@@ -317,7 +316,7 @@ nav .fas {
   border-top-right-radius: 10px;
 }
 .prin ul{
-  width: 386px;
+  width: 400px;
   position: relative;
   background: #fff;
 }
